@@ -15,9 +15,10 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css?family=Marck+Script");
 
 body {
   margin: 0;
-  background-color: #2B3A55;
-  color: white;
+  background-color: #b02d2de7;
+  color: #ffd4b1;
 }

@@ -1,11 +1,12 @@
 import React from "react";
-import Profile from "../components/Profile.component";
+import UserImg from "../components/UserImg.component";
+import Name from "../components/Name.component";
 
 function Home() {
   return (
     <div>
-      Home
-      <Profile></Profile>
+      <UserImg></UserImg>
+      <Name></Name>
     </div>
   );
 }

@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow: {
+        'homepage': '0 35px 35px rgba(76,28,28,1)'
+      }
+    },
+    fontFamily: {
+      "marckScript": ["Marck Script"],
+    }
   },
   plugins: [],
 }
