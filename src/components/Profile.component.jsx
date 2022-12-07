@@ -5,7 +5,6 @@ import { GiPaintBrush, GiForkKnifeSpoon } from "react-icons/gi";
 import { BsLaptop } from "react-icons/bs";
 import "../styles/typewriter.css";
 
-
 function Profile() {
   return (
     <div>
