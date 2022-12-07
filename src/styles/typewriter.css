@@ -1,0 +1,14 @@
+.line {
+    border-right: solid 2px gray;
+    animation: typewriter 3s steps(21) 1s, cursor 750ms steps(21) infinite;
+}
+
+@keyframes typewriter {
+    0% {width: 0;}
+    100%{width: 21ch ;}
+}
+
+@keyframes cursor {
+    0% {border-right-color: gray;}
+    100% {border-right-color: transparent;}
+}
