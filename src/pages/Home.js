@@ -4,7 +4,6 @@ import Profile from "../components/Profile.component";
 function Home() {
   return (
     <div>
-      Home
       <Profile></Profile>
     </div>
   );

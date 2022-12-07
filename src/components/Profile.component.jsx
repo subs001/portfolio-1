@@ -1,18 +1,27 @@
-import React from 'react'
-import profile_pic from '../assets/images/user.png'
+import React from "react";
+import profile_pic from "../assets/images/profile-pic.jpg";
+import SmallText from "./SmallText.component";
+import {GiPaintBrush, GiForkKnifeSpoon} from 'react-icons/gi';
+import {BsLaptop} from 'react-icons/bs';
 
 function Profile() {
   return (
-    <div class="grid grid-cols-2 py-24 bg-slate-800">
-        <div class='flex justify-end mr-32'>
-        <img src={profile_pic} alt="Profile Picture" class='w-32 h-32  bg-cyan-600 rounded-full p-3'/>
-        </div>
-        <div class='ml-2'>
-            <h1>Hi</h1>
-            <h5>My Name is -Name-</h5>
-        </div>
+    <div>
+      <div className="w-full flex justify-center pt-24">
+        <img
+          src={profile_pic}
+          alt="User"
+          className="rounded-full w-64 h-auto align-middle border-none"
+        />
+      </div>
+      <p className="font-marckScript text-5xl flex justify-center py-24">Hi, I'm Shriya Rathor</p>
+      <ul className="grid grid-cols-3 px-32 py-16 gap-4">
+        <SmallText text={"Artist"} icon={<GiPaintBrush />}></SmallText>
+        <SmallText text={"Engineer"} icon={<BsLaptop />}></SmallText>
+        <SmallText text={"Foodie"} icon={<GiForkKnifeSpoon />}></SmallText>
+      </ul>
     </div>
-  )
+  );
 }
 
-export default Profile
+export default Profile;
