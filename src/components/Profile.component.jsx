@@ -11,7 +11,7 @@ function Profile() {
         <img
           src={profile_pic}
           alt="User"
-          className="rounded-full w-64 h-auto align-middle border-none"
+          className="rounded-full w-64 h-auto align-middle border-fuchsia-300 border-4 shadow-md shadow-[#FFCACA]"
         />
       </div>
       <p className="font-marckScript text-5xl flex justify-center py-24">Hi, I'm Shriya Rathor</p>
