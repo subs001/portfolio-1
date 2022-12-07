@@ -6,11 +6,12 @@ module.exports = {
   theme: {
     extend: {
       dropShadow: {
-        'homepage': '0 35px 35px rgba(76,28,28,1)'
+        'homepage': '0 15px 15px rgba(255,236,239,0.5)'
       }
     },
     fontFamily: {
       "marckScript": ["Marck Script"],
+      "petitFormalScript": ["Petit Formal Script"],
     }
   },
   plugins: [],
