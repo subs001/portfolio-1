@@ -1,10 +1,11 @@
 import React from "react";
 import Profile from "../components/Profile.component";
+import Navbar from "../components/Navbar.component";
 
 function Home() {
   return (
     <div>
-      Home
+      <Navbar></Navbar>
       <Profile></Profile>
     </div>
   );

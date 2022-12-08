@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'marckScript': ["Marck Script"],
+      'satisfy': ["Satisfy"],
+    }
   },
   plugins: [],
 }
