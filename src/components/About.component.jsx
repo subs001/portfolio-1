@@ -8,9 +8,9 @@ function About() {
       <div className="w-full h-4 text-center justify-center flex py-16 md:pb-24">
         <p className="text-4xl text-[#393E46] font-dancingScript">Me !</p>
       </div>
-      <div className="w-full md:flex px-8 md:px-32 py-8 md:py-16">
+      <div className="w-full md:flex px-4 md:px-32 py-8 md:py-16">
         <div className="w-full md:w-[45%] justify-center md:justify-start">
-          <p className=" text-center text-justify md:text-justify font-poppins text-sm md:text-base">
+          <p className="text-justify font-poppins text-sm md:text-base">
             Born in Raipur, I spent most of my life here, embracing and taking
             part in the rich culture and traditions of my Gujarathi heritage.
             Currently in my final year pursuing my B.Tech Mechanical degree at
@@ -33,7 +33,7 @@ function About() {
             alt=""
             className="rounded-full w-24 h-24 md:w-32 md:h-32 border-purple-500 border-2 drop-shadow-md"
           />
-          <img src={about_pic} alt="" className="w-40 md:w-64 h-auto drop-shadow-md" />
+          <img src={about_pic} alt="" className="w-40 sm:w-48 md:w-64 h-auto drop-shadow-md" />
         </div>
       </div>
     </div>
