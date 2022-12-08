@@ -17,6 +17,9 @@ code {
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script');
 body {
   margin: 0;
   background-color: #F3EFE0;
