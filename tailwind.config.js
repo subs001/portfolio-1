@@ -8,6 +8,9 @@ module.exports = {
     fontFamily: {
       'marckScript': ["Marck Script"],
       'satisfy': ["Satisfy"],
+      'poppins': ["Poppins"],
+      'petitFormalScript': ["Petit Formal Script"],
+      'dancingScript': ['Dancing Script'],
     }
   },
   plugins: [],

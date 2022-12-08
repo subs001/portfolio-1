@@ -7,8 +7,8 @@ import "../styles/typewriter.css";
 
 function Profile() {
   return (
-    <div>
-      <div className="w-full flex justify-center pt-24">
+    <div name="home" id="home">
+      <div className="w-full flex justify-center pt-16">
         <img
           src={profile_pic}
           alt="User"
