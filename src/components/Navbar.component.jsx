@@ -8,8 +8,8 @@ function Navbar() {
   return (
     <div className="flex flex-col top-[35%] left-0 fixed">
       <ul>
-        <NavItem navIcon={<AiFillHome size={40}/>} navText={"Home"} navLink={""} />
-        <NavItem navIcon={<AiFillInfoCircle size={40}/>} navText={"About"} navLink={""} />
+        <NavItem navIcon={<AiFillHome size={40}/>} navText={"Home"} navLink={"home"} />
+        <NavItem navIcon={<AiFillInfoCircle size={40}/>} navText={"About"} navLink={"about"} />
         <NavItem navIcon={<BsFillBriefcaseFill size={40}/>} navText={"Experience"} navLink={""} />
         <NavItem navIcon={<BsFillTelephoneFill size={40}/>} navText={"Contact"} navLink={""} />
 

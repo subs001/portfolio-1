@@ -4,7 +4,7 @@ import location_pic from "../assets/images/Location.png";
 
 function About() {
   return (
-    <div>
+    <div name="about" id="about">
       <div className="w-full h-4 text-center justify-center flex py-16 md:pb-24">
         <p className="text-4xl text-[#393E46] font-dancingScript">Me !</p>
       </div>
