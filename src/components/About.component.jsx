@@ -1,14 +1,13 @@
 import React from "react";
 import about_pic from "../assets/images/About-pic.png";
 import location_pic from "../assets/images/Location.png";
+import Header from "./Header.component";
 
 function About() {
   return (
     <div name="about" id="about">
-      <div className="w-full h-4 text-center justify-center flex py-16 md:pb-24">
-        <p className="text-4xl text-[#393E46] font-dancingScript">Me !</p>
-      </div>
-      <div className="w-full md:flex px-4 md:px-32 py-8 md:py-16">
+      <Header text={"Me !"} />
+      <div className="w-full md:flex px-4 md:px-32 py-2 md:py-16">
         <div className="w-full md:w-[45%] justify-center md:justify-start">
           <p className="text-justify font-poppins text-sm md:text-base">
             Born in Raipur, I spent most of my life here, embracing and taking
