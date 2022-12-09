@@ -4,7 +4,7 @@ function TimelineLeft({ job }) {
   return (
     <div className="flex flex-row-reverse md:contents">
       <div className="bg-[#142F43] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md w-full md:w-[45%] hover:scale-110 duration-150">
-        <h3 className="font-semibold text-lg text-[#FF87CA]">
+        <h3 className="font-semibold text-lg text-[#FF87CA] font-quicksand">
           {job.companyName}
         </h3>
         <p className="leading-tight text-justify font-quicksand tracking-tighter mb-2 text-xs">
@@ -41,7 +41,7 @@ function TimelineRight({ job }) {
         <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-[#AAC4FF]"></div>
       </div>
       <div className="bg-[#142F43] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md w-full md:w-[45%] hover:scale-110 duration-150">
-        <h3 className="font-semibold text-lg mb-1 text-[#BCE29E]">
+        <h3 className="font-semibold text-lg mb-1 text-[#BCE29E] font-quicksand">
           {job.companyName}
         </h3>
         <p className="leading-tight text-justify font-quicksand tracking-tighter mb-2 text-xs">

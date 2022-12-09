@@ -29,7 +29,7 @@ function Experience() {
   ];
 
   return (
-    <div>
+    <div name="experience" id="experience">
       <Header text={"Experience"} />
       <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50 pt-4 pb-16 md:py-16">
         {work_experience.map((job, key) => {
