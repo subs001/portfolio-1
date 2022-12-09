@@ -31,7 +31,7 @@ function Experience() {
   return (
     <div>
       <Header text={"Experience"} />
-      <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
+      <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50 pt-4 pb-16 md:py-16">
         {work_experience.map((job, key) => {
           return job.left ? (
             <TimelineLeft job={job} key={key} />
