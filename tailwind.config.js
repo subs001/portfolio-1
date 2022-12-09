@@ -11,6 +11,7 @@ module.exports = {
       'poppins': ["Poppins"],
       'petitFormalScript': ["Petit Formal Script"],
       'dancingScript': ['Dancing Script'],
+      'quicksand': ['Quicksand'],
     }
   },
   plugins: [],
