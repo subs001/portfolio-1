@@ -14,5 +14,7 @@ module.exports = {
       'quicksand': ['Quicksand'],
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 }
