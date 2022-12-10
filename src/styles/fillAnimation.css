@@ -1,0 +1,8 @@
+.fill {
+    animation: fillAnimation 1s;
+}
+
+@keyframes fillAnimation {
+    0% {width: 10%;}
+    100%{width: 1;}
+}
