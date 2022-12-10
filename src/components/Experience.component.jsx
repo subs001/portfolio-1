@@ -1,33 +1,9 @@
 import React from "react";
 import Header from "./Header.component";
 import { TimelineLeft, TimelineRight } from "./Timeline.component";
+import { work_experience } from "../assets/constants";
 
 function Experience() {
-  const work_experience = [
-    {
-      companyName: "Citi Bank",
-      duration: "June 2023 - ",
-      role: "Software Engineer",
-      description: "Contributing to CSC department",
-      left: true,
-    },
-    {
-      companyName: "Schneider Electric",
-      duration: "May 2022 - Jul 2022",
-      role: "R&D Intern",
-      description: "Worked on cell simulation using Ansys Fluent",
-      left: true,
-    },
-    {
-      companyName: "Utkal Samaj",
-      duration: "Apr 2021 - May 2022",
-      role: "Operations Manager",
-      description:
-        "Organisation to spread Odisha culture throughout the country",
-      left: false,
-    },
-  ];
-
   return (
     <div name="experience" id="experience">
       <Header text={"Experience"} />
