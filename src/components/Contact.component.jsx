@@ -6,7 +6,7 @@ function Contact() {
     <div name="contact" id="contact">
       <Header text={"Contact"} />
 
-      <div className="w-[50%] p-12 h-[35rem] float-left">
+      <div className="w-full md:w-[50%] p-4 md:p-12 h-[35rem] float-none md:float-left">
         <p className="font-poppins w-[75%] mx-auto my-4">
           Please send me your queries, feedback or anything else you'd like to,
           here!
@@ -36,7 +36,11 @@ function Contact() {
           </button>
         </form>
       </div>
-      <div className="w-[50%] p-12  h-[35rem] float-right"></div>
+      <div className="w-full md:w-[50%] p-4 md:p-12 h-[35rem] float-none md:float-right">
+      <p className="font-poppins w-[75%] mx-auto my-4">
+          ...or on one of my Socials!
+        </p>
+      </div>
     </div>
   );
 }
