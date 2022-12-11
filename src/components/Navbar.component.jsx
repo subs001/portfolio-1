@@ -55,7 +55,10 @@ function Navbar() {
           navIcon={<FaLayerGroup size={30} />}
           navLink="projects"
         />
-        <NavItemMobile navIcon={<BsFillTelephoneFill size={30} />} navLink="" />
+        <NavItemMobile
+          navIcon={<BsFillTelephoneFill size={30} />}
+          navLink="contact"
+        />
       </div>
     </div>
   );
