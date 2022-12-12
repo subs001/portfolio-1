@@ -12,7 +12,7 @@ import { FaLayerGroup } from "react-icons/fa";
 function Navbar() {
   return (
     <div>
-      <div className="flex flex-col top-[35%] left-0 fixed hidden md:block z-10">
+      <div className="flex flex-col top-[30%] left-0 fixed hidden md:block z-10">
         <ul>
           <NavItem
             navIcon={<AiFillHome size={40} />}
@@ -55,7 +55,10 @@ function Navbar() {
           navIcon={<FaLayerGroup size={30} />}
           navLink="projects"
         />
-        <NavItemMobile navIcon={<BsFillTelephoneFill size={30} />} navLink="" />
+        <NavItemMobile
+          navIcon={<BsFillTelephoneFill size={30} />}
+          navLink="contact"
+        />
       </div>
     </div>
   );
