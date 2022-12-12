@@ -51,7 +51,7 @@ function Contact() {
         </p>
         <div className="flex flex-row w-full justify-center gap-4 md:gap-16 my-16">
           <div className="icon">
-            <a href="">
+            <a href="/" target="_blank" rel="noopener noreferrer">
               <AiFillGithub
                 size={iconSize}
                 className={iconStyle}
@@ -59,7 +59,7 @@ function Contact() {
             </a>
           </div>
           <div className="icon">
-            <a href="https://www.instagram.com/shriyaarathor/">
+            <a href="https://www.instagram.com/shriyaarathor/" target="_blank" rel="noopener noreferrer">
               <AiFillInstagram
                 size={iconSize}
                 className={iconStyle}
@@ -67,7 +67,7 @@ function Contact() {
             </a>
           </div>
           <div className="icon">
-            <a href="https://www.linkedin.com/in/shriya-rathor-0b42851ba/">
+            <a href="https://www.linkedin.com/in/shriya-rathor-0b42851ba/" target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin
                 size={iconSize}
                 className={iconStyle}

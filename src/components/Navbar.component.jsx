@@ -5,14 +5,13 @@ import { AiFillHome, AiFillInfoCircle } from "react-icons/ai";
 import {
   BsFillBriefcaseFill,
   BsFillTelephoneFill,
-  BsTelephoneFill,
 } from "react-icons/bs";
 import { FaLayerGroup } from "react-icons/fa";
 
 function Navbar() {
   return (
     <div>
-      <div className="flex flex-col top-[30%] left-0 fixed hidden md:block z-10">
+      <div className="top-[30%] left-0 fixed hidden md:block z-10">
         <ul>
           <NavItem
             navIcon={<AiFillHome size={40} />}
