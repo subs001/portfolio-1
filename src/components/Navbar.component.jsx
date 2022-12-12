@@ -40,7 +40,7 @@ function Navbar() {
           />
         </ul>
       </div>
-      <div className="flex flex-row md:hidden justify-center gap-10 mx-auto bg-gradient-to-b from-[#42032C] to-[#212239] text-[#FFFBEB] w-full h-12 fixed z-10">
+      <div className="flex flex-row md:hidden justify-center gap-10 mx-auto bg-gradient-to-r from-[#42032C] to-[#803817] text-[#FFFBEB] w-full h-12 fixed z-10">
         <NavItemMobile navIcon={<AiFillHome size={30} />} navLink="home" />
         <NavItemMobile
           navIcon={<AiFillInfoCircle size={30} />}

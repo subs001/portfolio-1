@@ -7,7 +7,7 @@ function MultiSectionHeader({ section, sections, setVisibleSection }) {
         <button
           className={`text-4xl text-[#393E46] font-dancingScript  ${
             section === sections[0]
-              ? "text-red-500 scale-110 duration-100"
+              ? "text-teal-500 scale-110 duration-100"
               : "text-black"
           }`}
           onClick={() => {
@@ -20,7 +20,7 @@ function MultiSectionHeader({ section, sections, setVisibleSection }) {
         <button
           className={`text-4xl text-[#393E46] font-dancingScript  ${
             section === sections[1]
-              ? "text-red-500 scale-110 duration-100"
+              ? "text-teal-500 scale-110 duration-100"
               : "text-black"
           }`}
           onClick={() => {
